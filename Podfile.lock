@@ -1,0 +1,234 @@
+PODS:
+  - Alamofire (5.0.5)
+  - AlamofireImage (4.0.3):
+    - Alamofire (< 6.0.0, >= 5.0.2)
+  - AlamofireNetworkActivityIndicator (3.0.1):
+    - Alamofire (~> 5.0)
+  - AlamofireObjectMapper (6.0.0):
+    - Alamofire (~> 5.0.0-beta.2)
+    - ObjectMapper (~> 3.4)
+  - BaiduMapKit (6.1.0):
+    - BaiduMapKit/Base (= 6.1.0)
+    - BaiduMapKit/Cloud (= 6.1.0)
+    - BaiduMapKit/Map (= 6.1.0)
+    - BaiduMapKit/Search (= 6.1.0)
+    - BaiduMapKit/Utils (= 6.1.0)
+  - BaiduMapKit/Base (6.1.0)
+  - BaiduMapKit/Cloud (6.1.0):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Map (6.1.0):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Search (6.1.0):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Utils (6.1.0):
+    - BaiduMapKit/Base
+  - BetterSegmentedControl (1.3.0)
+  - BMKLocationKit (2.0.0)
+  - BSImagePicker (3.1.7)
+  - Bugly (2.5.71)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - Chrysan (1.5.4)
+  - CocoaLumberjack/Core (3.7.0)
+  - CocoaLumberjack/Swift (3.7.0):
+    - CocoaLumberjack/Core
+  - EmptyDataSet-Swift (5.0.0)
+  - Eureka (5.3.2)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FSCalendar (2.8.2)
+  - HandyJSON (5.0.3-beta)
+  - ImageSlideshow (1.9.2):
+    - ImageSlideshow/Core (= 1.9.2)
+  - ImageSlideshow/Alamofire (1.9.2):
+    - AlamofireImage (~> 4.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.9.2)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JCore (2.1.2)
+  - JMessage (3.9.1):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - JPush (3.2.4):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - JTCalendar (2.2.6)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.5.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - ObjectMapper (3.5.3)
+  - PromisesObjC (1.2.12)
+  - PromisesSwift (1.2.12):
+    - PromisesObjC (= 1.2.12)
+  - ReactiveCocoa (10.3.0):
+    - ReactiveSwift (~> 6.2)
+  - ReactiveSwift (6.5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - SnapKit (4.0.1)
+  - Starscream (4.0.4)
+  - SwiftValidator (4.0.0)
+  - SwiftyJSON (5.0.0)
+  - SwiftyTimer (2.1.0)
+  - SwiftyUserDefaults (3.0.1)
+  - YHPhotoKit (0.2.1)
+  - YHPopupView (0.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireNetworkActivityIndicator
+  - AlamofireObjectMapper
+  - BaiduMapKit
+  - BetterSegmentedControl (~> 1.2)
+  - BMKLocationKit
+  - BSImagePicker (~> 3.1.0)
+  - Bugly
+  - Charts
+  - Chrysan
+  - CocoaLumberjack/Swift (~> 3.5)
+  - EmptyDataSet-Swift (~> 5.0.0)
+  - Eureka (~> 5.3.0)
+  - FMDB (~> 2.6.2)
+  - FSCalendar
+  - HandyJSON (~> 5.0.2-beta)
+  - ImageSlideshow (~> 1.9)
+  - ImageSlideshow/Alamofire
+  - IQKeyboardManagerSwift
+  - JCore (= 2.1.2)
+  - JMessage
+  - JPush (= 3.2.4)
+  - JTCalendar (~> 2.0)
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh
+  - Moya (~> 14.0)
+  - Moya/RxSwift (~> 14.0)
+  - PromisesSwift (~> 1.2)
+  - ReactiveCocoa (~> 10.1)
+  - ReactiveSwift (~> 6.1)
+  - RxCocoa (~> 5.1.1)
+  - SDWebImage (~> 4.0)
+  - SnapKit (~> 4.0.0)
+  - Starscream (~> 4.0.0)
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - SwiftyJSON
+  - SwiftyTimer
+  - SwiftyUserDefaults (~> 3.0)
+  - YHPhotoKit
+  - YHPopupView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireNetworkActivityIndicator
+    - AlamofireObjectMapper
+    - BaiduMapKit
+    - BetterSegmentedControl
+    - BMKLocationKit
+    - BSImagePicker
+    - Bugly
+    - Charts
+    - Chrysan
+    - CocoaLumberjack
+    - EmptyDataSet-Swift
+    - Eureka
+    - FMDB
+    - FSCalendar
+    - HandyJSON
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - JCore
+    - JMessage
+    - JPush
+    - JTCalendar
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - ObjectMapper
+    - PromisesObjC
+    - PromisesSwift
+    - ReactiveCocoa
+    - ReactiveSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+    - Starscream
+    - SwiftyJSON
+    - SwiftyTimer
+    - SwiftyUserDefaults
+    - YHPhotoKit
+    - YHPopupView
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: d370353b7a0ce758a53b189c81e485dcd53c99a4
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  AlamofireImage: 3d1a2010519e58675318735580eb856e88840ff7
+  AlamofireNetworkActivityIndicator: f7d4cd8d12bcf61dc569cbe000b0c35e9c8d8d32
+  AlamofireObjectMapper: 8cf0e01a1b36b485877033f8f6aa733977488da3
+  BaiduMapKit: 223daf970a1a3e8d87014e5c7310b18b8bdf4114
+  BetterSegmentedControl: 85d1b0343a09603b098884d527f550dfc8e6cdd9
+  BMKLocationKit: 097814ef672b1e57e86e6c1968d7892fb78002bf
+  BSImagePicker: 403ef8cd6f45b3fcdd75419e85e1ec11ecb6fdea
+  Bugly: fd066c75c4a0eca1440f9b6a84bd37d51bfc85ac
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Chrysan: 01c5df91a706b5785e2c0d594c0de16bb2ada034
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  Eureka: 1c2b8b5892bfb0e972d0fe05f8c09fd89f8625ec
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  HandyJSON: 88e8ea5f66ab65c3b8768499a1935d0509c460d4
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JCore: 1a426120b510cdebfd67b82bfb9483238ee09413
+  JMessage: 43dfcd5348573b2f4f24357b12e9b19076322606
+  JPush: 29466e5f30dbd703f640d70540e411e829cac1fa
+  JTCalendar: 1b326e0d59dd1855b52c5f3feb059d2ff953805d
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  PromisesSwift: 64085cf6e5fc1b5001f90cf31e87a1f1621fefee
+  ReactiveCocoa: 083ae559e6f588ce519cab412ea119b431c26a24
+  ReactiveSwift: 8d159904084e908856cde90b2e28823f3c7e485f
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftValidator: 249b6b3ae3b294266c5b9de134d94f18f2d5aa47
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyTimer: 02dd6cf10cbc71cbf67cec494f6e5eb782102543
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  YHPhotoKit: e88368af1fca0a110d41b88417088f7e49876981
+  YHPopupView: 96d9c05c79a2a17cf69c3def09e5305cfae9e8e8
+
+PODFILE CHECKSUM: 6d66a7d5d409d5cd62a2ef37b496f97bfc2c9744
+
+COCOAPODS: 1.9.1
